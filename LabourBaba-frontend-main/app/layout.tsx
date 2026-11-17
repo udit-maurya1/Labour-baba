@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   keywords: [
     "Labour Baba",
     "LabourBaba",
-    "Viraj Sarthi",
     "labour booking",
     "find workers",
     "hire workers",
@@ -30,9 +29,9 @@ export const metadata: Metadata = {
     "Next.js",
   ],
 
-  authors: [{ name: "Your Name" }],
-  creator: "Your Name",
-  applicationName: "Your App Name",
+  authors: [{ name: "Udit Maurya" }],
+  creator: "Udit Maurya",
+  applicationName: "LabourBaba",
 
   icons: {
     icon: "/logo.png",
@@ -41,17 +40,17 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Your App Name",
+    title: "LabourBaba - Find Trusted Workers and Skilled Professionals",
     description:
       "Book trusted workers and skilled professionals near you.",
-    url: "https://yourdomain.com",
-    siteName: "Your App Name",
+    url: "https://labourbaba.in",
+    siteName: "LabourBaba",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Your App Name",
+        alt: "LabourBaba",
       },
     ],
     locale: "en_US",
@@ -60,7 +59,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Your App Name",
+    title: "LabourBaba - Find Trusted Workers and Skilled Professionals",
     description:
       "Book trusted workers and skilled professionals near you.",
     images: ["/og-image.png"],

@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "labourbaba-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend API service for LabourBaba platform",
   "main": "src/server.ts",
   "scripts": {
     "dev": "nodemon --exec tsx src/server.ts",
@@ -11,8 +11,14 @@
     "prisma:push": "prisma db push",
     "prisma:studio": "prisma studio"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "labourbaba",
+    "express",
+    "prisma",
+    "postgis",
+    "typescript"
+  ],
+  "author": "Udit Maurya <udit0maurya@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@asteasolutions/zod-to-openapi": "^8.5.0",

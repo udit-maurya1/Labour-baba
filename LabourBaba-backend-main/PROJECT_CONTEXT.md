@@ -11,7 +11,7 @@ This document provides a comprehensive overview of the **LabourBaba-backend** co
 
 ## 2. Directory Structure
 
-The project follows a **feature-based (functional) architecture** (restructured from MVC on 2026-07-25, commit 67b300c). The source root (`src/`) is organized by features, with shared utilities and configurations centralized:
+The project follows a **feature-based (functional) architecture**. The source root (`src/`) is organized by features, with shared utilities and configurations centralized:
 
 - **`src/`**
   - **`config/`** - Global configurations
@@ -475,7 +475,7 @@ Summary: Since the previous documentation update, the codebase received multiple
 - Added global error handling middleware to centralize error responses and reduce controller duplication.
 
 ### C. Dispatch Workflow & Spatial Matching
-- Major refactors to dispatch logic: improved worker selection, wave handling, and queue reliability (multiple commits).
+- Major refactors to dispatch logic: improved worker selection, wave handling, and queue reliability.
 - Restored skill matching normalization and adjusted worker pool sizing logic (introducing `workers_needed` in dispatch requirements).
 - Temporarily lifted radius filtering in some flows to broaden candidate selection while dispatch tuning is in progress.
 - Job creation now includes worker & user data to seed immediate dispatch processing for new jobs.
@@ -516,17 +516,13 @@ Notes & Next Steps:
 - Consider adding feature flags for radius filtering while tuning dispatch heuristics.
 - Push Docker artifacts to registry and add a reference deployment script.
 
-(Use `git log --oneline` to review per-commit details; see commit history for granular changes.)
-
 ---
 
-## 9. Architecture Restructuring (2026-07-25)
+## 9. Architecture Structure
 
-**Commit:** `67b300c` - "shifted the folder str of the project from mvc to the functional"
+### Feature-Based Architecture
 
-### Migration from MVC to Feature-Based Architecture
-
-The project was restructured from a traditional MVC (Model-View-Controller) pattern to a **feature-based (functional) architecture**:
+The project is structured according to a **feature-based (functional) architecture**:
 
 #### Before (MVC Structure):
 ```
